@@ -212,4 +212,6 @@ return [
         // 'ExampleClass' => App\Example\ExampleClass::class,
     ])->toArray(),
 
+    // Backpack Add-ons
+    'log' => env('APP_LOG', 'daily'),
 ];
